@@ -25,6 +25,10 @@ section.main{
 
 .logo-menu{width:50%;}
 
+.logo-menu a img {
+    border-radius: 5px;
+}
+
 .items-menu{
     width:50%;
     text-align: right;
@@ -214,6 +218,10 @@ section.depoimentos > h1{
     margin:15px 0;
     color:#7E92AC;
     font-size: 14px;
+}
+
+.container-slider-single img {
+    border-radius: 100px;
 }
 
 .slick-slide {
