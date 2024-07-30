@@ -300,4 +300,11 @@ li.slick-active button{
         max-width: 300px;
         width:100%;
     }
+
+    .items-menu {
+        display:flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
 }
