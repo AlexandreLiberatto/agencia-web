@@ -330,7 +330,60 @@ footer {
     padding: 8px 0;
 }
 
+.items-menu-mobile {
+    width: 50%;
+    text-align: right;
+    display: none;
+}
+
+.items-menu-mobile i {
+    color: white;
+    position: relative;
+    top: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
+
+    .items-menu-mobile {
+        display: block;
+
+    }
+
+    .menu-mobile {
+        opacity: 0;
+        transition: 1s;
+         position: absolute;
+         right: 50px;
+         top: 40px;
+         width: 50px;
+         padding: 20px 0;
+         text-align: center;
+         font-size: 1.2rem;
+    }
+
+    .show {
+        opacity: 1;
+    }
+
+    .hide {
+        opacity: 0;
+    }
+
+    .menu-mobile a {
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        color: rgb(10, 10, 10);
+        text-decoration: none;
+        font-weight: 900;
+        
+    }
+
+    section.main .items-menu {
+        display: none;
+    }
 
     footer .items-menu{
         width: 100%;
